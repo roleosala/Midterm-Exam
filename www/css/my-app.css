@@ -1,0 +1,94 @@
+.demo-card-header-pic .card-header {
+    height: 60vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+.demo-card-header-pic .card-content-padding .date{
+    color: #8e8e93;
+  }
+
+.mFont{
+	font-size: 8px;
+}
+
+.demo-card-header-pic2 .card-header {
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+
+.demo-card-header-pic3 .card-header {
+  height: 150vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../lib/framework7/fonts/Framework7Icons-Regular.eot");
+  src: local('Framework7 Icons'),
+     local('Framework7Icons-Regular'),
+     url("../lib/framework7/fonts/Framework7Icons-Regular.woff2") format("woff2"),
+     url("../lib/framework7/fonts/Framework7Icons-Regular.woff") format("woff"),
+     url("../lib/framework7/fonts/Framework7Icons-Regular.ttf") format("truetype");
+}
+
+.f7-icons, .framework7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+}
+
+.pageBackground{
+	background-image: url('../image/closeup.jpg');
+}
+
+.demo-swiper .swiper-slide {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+}
+.demo-swiper .swiper-slide {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.demo-swiper {
+  margin: 0px 0 35px;
+  font-size: 18px;
+  height: 450px;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide {
+  width: 85%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+  width: 70%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+  width: 30%;
+}
+

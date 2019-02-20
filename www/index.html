@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Wedding</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body class="">
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar color-theme-pink">
+            <div class="navbar-inner">
+              <div class="title">Mangaliag & Satam Wedding</div>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+            <div class="page">
+              <div class="navbar">
+                <div class="navbar-inner sliding">
+                  <div class="left">
+                    <a href="#" class="link back">
+                      <i class="icon icon-back"></i>
+                      <span class="ios-only">Back</span>
+                    </a>
+                  </div>
+                  <div class="title">Swipeable Tabs</div>
+                </div>
+              </div>
+              <div class="toolbar tabbar color-theme-pink">
+                <div class="toolbar-inner">
+                  <a href="#tab-1" class="tab-link tab-link-active"><i class="material-icons">home</i>Home</a>
+                  <a href="#tab-2" class="tab-link"><i class="material-icons">people</i>Members</a>
+                  <a href="#tab-3" class="tab-link"><i class="material-icons">message</i>Information</a>
+                </div>
+              </div>
+              <div class="tabs-swipeable-wrap">
+                <div class="tabs">
+                  <div id="tab-1" class="page-content tab tab-active">
+                    <div class="block">
+                      <div class="card demo-card-header-pic3">
+                          <div style="background-image:url(images/invite2.jpg)" class="card-header align-items-flex-end"><!-- Wedding Invitation --></div>
+                        </div>
+                        <div class="card demo-card-header-pic">
+                          <div style="background-image:url(images/closeup.jpg)" class="card-header align-items-flex-end">Bride & Groom</div>
+                          <div class="card-content card-content-padding">
+                            <p class="date">Compilations of Photos</p>
+                            <p>This is a Compilation of photos of the Bride and the Groom</p>
+                          </div>
+                          <div class="card-footer"><a href="#" class="link button-disabled"></a><a href="#" class="button pb-paged12">View more</a></div>
+                        </div>
+                        <div class="card demo-card-header-pic">
+                          <div style="background-image:url(images/reception.jpeg)" class="card-header align-items-flex-end">Crocodile Park</div>
+                          <div class="card-content card-content-padding">
+                            <p class="date">Photo Compilation of The Wedding Reception</p>
+                            <p></p>
+                          </div>
+                          <div class="card-footer"><a href="#" class="link button-disabled"></a><a href="#" class="button pb-page">View more</a></div>
+                        </div>
+
+                    </div>
+                  </div>
+                  <div id="tab-2" class="page-content tab">
+                    <div class="block">
+                        <div class="block-title">Members of The Wedding</div>
+                        <div class="list">
+                          <ul>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                                <div class="item-inner">
+                                  <div class="item-title">Parents</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <div class="block">
+                                    <div class="list">
+                                      <ul>
+                                        <li>
+                                          <div class="item-content">
+                                            <div class="item-inner">
+                                              <div class="item-title">Ivan Mangaliag</div>
+                                              <div class="item-after"><span class="badge color-blue">Groom's Mother</span></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="item-content">
+                                            <div class="item-inner">
+                                              <div class="item-title">Micah Mangaliag</div>
+                                              <div class="item-after"><span class="badge color-blue">Groom's Father</span></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="item-content">
+                                            <div class="item-inner">
+                                              <div class="item-title">Jane Satam</div>
+                                              <div class="item-after"><span class="badge color-orange">Bride's Mother</span></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="item-content">
+                                            <div class="item-inner">
+                                              <div class="item-title">Patrick Satam</div>
+                                              <div class="item-after"><span class="badge color-orange">Bride's Father</span></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                                <div class="item-inner">
+                                  <div class="item-title">Men</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <div class="block">
+                                      <div class="list">
+                                        <ul>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Joshua Concon</div>
+                                                <div class="item-after"><span class="badge color-green">Best Man</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Micah Concon</div>
+                                                <div class="item-after"><span class="badge">Groom's Men</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Micah Leosala</div>
+                                                <div class="item-after"><span class="badge">Groom's Men</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Gerlad Anderson</div>
+                                                <div class="item-after"><span class="badge">Groom's Men</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Axl Parangan Petrov</div>
+                                                <div class="item-after"><span class="badge">Groom's Men</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">St. Joseph</div>
+                                                <div class="item-after"><span class="badge">Groom's Men</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Weaven Wang</div>
+                                                <div class="item-after"><span class="badge">Groom's Men</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                                <div class="item-inner">
+                                  <div class="item-title">Women</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <div class="block">
+                                      <div class="list">
+                                        <ul>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">ChrisFaye Patatas</div>
+                                                <div class="item-after"><span class="badge color-pink">Maid of Honor</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Divya Gomez</div>
+                                                <div class="item-after"><span class="badge">Bridesmaid</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Divya Gonzales</div>
+                                                <div class="item-after"><span class="badge">Bridesmaid</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Patricia Decilla</div>
+                                                <div class="item-after"><span class="badge">Bridesmaid</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Angela Apigo</div>
+                                                <div class="item-after"><span class="badge">Bridesmaid</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Theax Lascuna</div>
+                                                <div class="item-after"><span class="badge">Bridesmaid</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="item-content">
+                                              <div class="item-inner">
+                                                <div class="item-title">Blue Moon</div>
+                                                <div class="item-after"><span class="badge">Bridesmaid</span></div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="tab-3" class="page-content tab">
+                    <div class="block">
+                      <div class="block-title">Wedding Information</div>
+                        <div class="list">
+                          <ul>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                                <div class="item-inner">
+                                  <div class="item-title">Mass Event</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <p>Place: San Pedro Hospital</p>
+                                  <p>Call Time: 3:00 pm</p>
+                                  <ul>
+                                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                                      <div class="item-inner">
+                                        <div class="item-title">Order of Mass</div>
+                                      </div></a>
+                                      <div class="accordion-item-content">
+                                        <div class="block">
+                                          <!-- Each next item will on different side -->
+
+
+                                          <div class="timeline">
+                                            <!-- Timeline item -->
+                                            <!-- Timeline item with special timeline elements -->
+                                            <!-- Timeline item with multiple events per day  -->
+                                            <!-- Timeline item with multiple events (inners) per day -->
+                                            <div class="timeline-item">
+                                              <div class="timeline-item-date">08 <small>APR</small></div>
+                                              <div class="timeline-item-divider"></div>
+                                              <div class="timeline-item-content">
+                                                <div class="timeline-item-inner">
+                                                  <div class="timeline-item-time">03:30 pm</div>
+                                                    <div class="timeline-item-title">START OF MASS</div>
+                                                  </div>
+                                                <div class="timeline-item-inner">
+                                                  <div class="timeline-item-time"></div>
+                                                  <div class="timeline-item-title">LEADED BY:</div>
+                                                  <div class="timeline-item-text">Fr. Joel Tabora</div>
+                                                </div>
+                                                <div class="timeline-item-inner">
+                                                  <div class="timeline-item-time"></div>
+                                                  <div class="timeline-item-title">READINGS BY:</div>
+                                                  <div class="timeline-item-text">Joshua Concon</div>
+                                                </div>
+                                                <div class="timeline-item-inner">
+                                                  <div class="timeline-item-time"></div>
+                                                  <div class="timeline-item-title">RINGBEARER:</div>
+                                                  <div class="timeline-item-text">Mean Clyde Sitoy</div>
+                                                </div>
+                                                <div class="timeline-item-inner">
+                                                  <div class="timeline-item-time"></div>
+                                                  <div class="timeline-item-title">Exhange of Vows By:</div>
+                                                  <div class="timeline-item-text">Jm Mangaliag & Faye Satam</div>
+                                                  
+                                                </div>
+                                                <div class="timeline-item-inner">
+                                                  <div class="timeline-item-time">05:30 pm</div>
+                                                  <div class="timeline-item-title">END OF MASS</div>
+                                                  
+                                                </div>
+                                            </div>
+                                            <!-- Timeline item with Card -->
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                                <div class="item-inner">
+                                  <div class="item-title">Wedding Reception</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+                                <div class="block">
+                                  <ul>
+                                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                                      <div class="item-inner">
+                                        <div class="item-title"><p>Location: Crocodile Park</p>
+                                        <p>Call Time: 7:10 pm</p>Get Directions Here</div>
+                                      </div></a>
+                                      <div class="accordion-item-content">
+                                        <div class="block">
+                                          <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Crocodile%20Park&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webside erstellen</a></div><style>.mapouter{text-align:right;height:500px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div>
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <div class="timeline">
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">24 <small>DEC</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time">07:30 pm</div>
+                                            <div class="timeline-item-title">Start of Event</div>
+                                            <div class="timeline-item-subtitle"></div>
+                                            <div class="timeline-item-text"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                     <div class="timeline-item">
+                                      <div class="timeline-item-date">07:40 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Introduction</div>
+                                            <div class="timeline-item-subtitle">by:</div>
+                                            <div class="timeline-item-text">Dj Bombay</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">08:00 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Giving The Blessing</div>
+                                            <div class="timeline-item-subtitle">by:</div>
+                                            <div class="timeline-item-text">Fr. Denny Toledo</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">08:20 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Cutting The Cake</div>
+                                            <div class="timeline-item-subtitle">by:</div>
+                                            <div class="timeline-item-text">Bride & Groom</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">08:35 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Dinner</div>
+                                            <div class="timeline-item-subtitle"></div>
+                                            <div class="timeline-item-text"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:00 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Toasting</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Rex Llanes</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:05 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">First Dance</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Bride & Groom</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:10 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Mother & Daughter's Dance</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Mother of Bride and Bride</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:20 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Mother and Groom's Dance</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Mother of Groom and Groom</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:30 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Special Dance</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Bride's Father and Bride</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:40 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Bouqet Toss</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Bride</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">09:45 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Last Message</div>
+                                            <div class="timeline-item-subtitle">by: </div>
+                                            <div class="timeline-item-text">Groom</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                      <div class="timeline-item-date">10:00 <small>pm</small></div>
+                                      <div class="timeline-item-divider"></div>
+                                      <div class="timeline-item-content">
+                                        <div class="timeline-item-inner">
+                                          <div class="timeline-item-time"></div>
+                                            <div class="timeline-item-title">Party Party</div>
+                                            <div class="timeline-item-subtitle"></div>
+                                            <div class="timeline-item-text"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                              <div class="item-inner">
+                                <div class="item-title">Food Menu</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+                                <div class="list media-list inset">
+                                  <div class="list media-list">
+  <div class="card demo-card-header-pic2">
+  <div style="background-image:url(images/food/adobo.jpg)" class="card-header align-items-flex-end">Adobo</div>
+  </div>
+  <div class="card demo-card-header-pic2">
+  <div style="background-image:url(images/food/ck.jpg)" class="card-header align-items-flex-end">Chicken Dinner</div>
+  </div>
+  <div class="card demo-card-header-pic2">
+  <div style="background-image:url(images/food/fr.jpeg)" class="card-header align-items-flex-end">Fried Rice</div>
+  </div>
+  <div class="card demo-card-header-pic2">
+  <div style="background-image:url(images/food/ham.jpg)" class="card-header align-items-flex-end">Ham</div>
+  </div>
+  <div class="card demo-card-header-pic2">
+  <div style="background-image:url(images/food/sisig.jpg)" class="card-header align-items-flex-end">Sisig</div>
+  </div>
+                              </div>
+                            </li>
+                            <li class="accordion-item"><a href="#" class="item-content item-link">
+                              <div class="item-inner">
+                                <div class="item-title">What To Wear</div>
+                                </div></a>
+                              <div class="accordion-item-content">
+<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+  <div class="swiper-pagination"></div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img class="elevation-6" src="images/wear/women.jpeg" width="100%" height = "100%"id="m1" ></div>
+    <div class="swiper-slide"><img class="elevation-6" src="images/wear/men.jpeg" width="100%" height = "100%"id="m1" ></div>
+</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

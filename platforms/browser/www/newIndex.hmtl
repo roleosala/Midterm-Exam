@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Wedding</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">Petrov's Wedding Information</div>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+          <div class="page">
+            <div class="navbar">
+              <div class="navbar-inner sliding">
+                <div class="left">
+                  <a href="#" class="link back">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Back</span>
+                  </a>
+                </div>
+                <div class="title">Swipeable Tabs</div>
+              </div>
+            </div>
+            <div class="toolbar tabbar">
+              <div class="toolbar-inner">
+                <a href="#tab-1" class="tab-link tab-link-active">Tab 1</a>
+                <a href="#tab-2" class="tab-link">Tab 2</a>
+                <a href="#tab-3" class="tab-link">Tab 3</a>
+              </div>
+            </div>
+            <div class="tabs-swipeable-wrap">
+              <div class="tabs">
+                <div id="tab-1" class="page-content tab tab-active">
+                  <div class="block">
+                    <div class="block-title">Separate Collapsibles</div>
+                      <div class="list">
+                        <ul>
+                          <li class="accordion-item"><a href="#" class="item-content item-link">
+                              <div class="item-inner">
+                                <div class="item-title">Wedding Information</div>
+                              </div></a>
+                            <div class="accordion-item-content">
+                              <div class="block">
+                                <p>Place: San Pedro Hospital</p>
+                                <p>Call Time: 3:00 pm</p>
+                                <ul>
+                                  <li class="accordion-item"><a href="#" class="item-content item-link">
+                                    <div class="item-inner">
+                                      <div class="item-title">Order of Mass</div>
+                                    </div></a>
+                                    <div class="accordion-item-content">
+                                      <div class="block">
+                                        <!-- Each next item will on different side -->
+
+
+                                        <div class="timeline">
+                                          <!-- Timeline item -->
+                                          <!-- Timeline item with special timeline elements -->
+                                          <!-- Timeline item with multiple events per day  -->
+                                          <!-- Timeline item with multiple events (inners) per day -->
+                                          <div class="timeline-item">
+                                            <div class="timeline-item-date">08 <small>APR</small></div>
+                                            <div class="timeline-item-divider"></div>
+                                            <div class="timeline-item-content">
+                                              <div class="timeline-item-inner">
+                                                <div class="timeline-item-time">03:30 pm</div>
+                                                  <div class="timeline-item-title">START OF MASS</div>
+                                                </div>
+                                              <div class="timeline-item-inner">
+                                                <div class="timeline-item-time"></div>
+                                                <div class="timeline-item-title">LEADED BY:</div>
+                                                <div class="timeline-item-text">Fr. Joel Tabora</div>
+                                              </div>
+                                              <div class="timeline-item-inner">
+                                                <div class="timeline-item-time"></div>
+                                                <div class="timeline-item-title">READINGS BY:</div>
+                                                <div class="timeline-item-text">Joshua Concon</div>
+                                              </div>
+                                              <div class="timeline-item-inner">
+                                                <div class="timeline-item-time"></div>
+                                                <div class="timeline-item-title">RINGBEARER:</div>
+                                                <div class="timeline-item-text">Mean Clyde Sitoy</div>
+                                              </div>
+                                              <div class="timeline-item-inner">
+                                                <div class="timeline-item-time"></div>
+                                                <div class="timeline-item-title">Exhange of Vows By:</div>
+                                                <div class="timeline-item-text">Jm Mangaliag & Faye Satam</div>
+                                                
+                                              </div>
+                                              <div class="timeline-item-inner">
+                                                <div class="timeline-item-time">05:30 pm</div>
+                                                <div class="timeline-item-title">END OF MASS</div>
+                                                
+                                              </div>
+                                          </div>
+                                          <!-- Timeline item with Card -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="accordion-item"><a href="#" class="item-content item-link">
+                              <div class="item-inner">
+                                <div class="item-title">Wedding Reception</div>
+                              </div></a>
+                            <div class="accordion-item-content">
+                              <div class="block">
+                                <div class="timeline">
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">24 <small>DEC</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time">07:30 pm</div>
+                                          <div class="timeline-item-title">Start of Event</div>
+                                          <div class="timeline-item-subtitle"></div>
+                                          <div class="timeline-item-text"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                   <div class="timeline-item">
+                                    <div class="timeline-item-date">07:40 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Introduction</div>
+                                          <div class="timeline-item-subtitle">by:</div>
+                                          <div class="timeline-item-text">Dj Bombay</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">08:00 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Giving The Blessing</div>
+                                          <div class="timeline-item-subtitle">by:</div>
+                                          <div class="timeline-item-text">Fr. Denny Toledo</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">08:20 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Cutting The Cake</div>
+                                          <div class="timeline-item-subtitle">by:</div>
+                                          <div class="timeline-item-text">Bride & Groom</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">08:35 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Dinner</div>
+                                          <div class="timeline-item-subtitle"></div>
+                                          <div class="timeline-item-text"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:00 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Toasting</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Rex Llanes</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:05 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">First Dance</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Bride & Groom</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:10 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Mother & Daughter's Dance</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Mother of Bride and Bride</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:20 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Mother and Groom's Dance</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Mother of Groom and Groom</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:30 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Special Dance</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Bride's Father and Bride</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:40 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Bouqet Toss</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Bride</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">09:45 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Last Message</div>
+                                          <div class="timeline-item-subtitle">by: </div>
+                                          <div class="timeline-item-text">Groom</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="timeline-item">
+                                    <div class="timeline-item-date">10:00 <small>pm</small></div>
+                                    <div class="timeline-item-divider"></div>
+                                    <div class="timeline-item-content">
+                                      <div class="timeline-item-inner">
+                                        <div class="timeline-item-time"></div>
+                                          <div class="timeline-item-title">Party Party</div>
+                                          <div class="timeline-item-subtitle"></div>
+                                          <div class="timeline-item-text"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tab-2" class="page-content tab">
+                  <div class="block">
+                    <p>Tab 2 content</p>
+                    ...
+                  </div>
+                </div>
+                <div id="tab-3" class="page-content tab">
+                  <div class="block">
+                    <p>Tab 3 content</p>
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
